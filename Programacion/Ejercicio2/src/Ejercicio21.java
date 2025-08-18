@@ -15,8 +15,8 @@ public class Ejercicio21 {
             System.out.println("Segundo cuadrante");
         } else if(x<0 && y<0){
             System.out.println("Tercer cuadrante");
-        } else if(x>0 && y<0){
-            System.out.println("Cuarto cuadrante");
+        } else if(x>0 && y<0)  {
+            System.out.println("Cuatro cuadrante");
         }
     }
     public static void main(String[] args) {

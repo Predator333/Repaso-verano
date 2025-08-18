@@ -11,11 +11,13 @@ public class Ejercicio22 {
     }
     public void calculo(){
         if(sueldo<300&&annos>=10){
-            System.out.println("Otorgarle un 20% mas de aumento en su sueldo " +sueldo*1.20 );
+            System.out.println("Otorgarle un 20% mas de aumento en su sueldo " + sueldo*1.20 );
+            sueldo*=1.20;
         } else if(sueldo<300&&annos<10){
-            System.out.println("Otorgarle un 5% mas de aumento en su sueldo " +sueldo*1.05);
-        } else if(sueldo>=300){
-            System.out.println(" Su sueldo se queda como esta sin aumentos " +sueldo);
+            System.out.println("Otorgarle un 5% mas de aumento en su sueldo " + sueldo*1.05);
+            sueldo*=1.05;
+        } else {
+            System.out.println(" Si el sueldo es mayor o igual 300 se queda como esta sin aumentos " + sueldo);
         }
     }
     public static void main(String[] args) {
