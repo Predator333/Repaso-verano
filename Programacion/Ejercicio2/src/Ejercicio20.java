@@ -10,20 +10,17 @@ public class Ejercicio20 {
         System.out.print("Ingrese el numero3: ");
         num3 = teclado.nextInt();
     }
-    public void bucle(){
-        if(num1>10&&num2>10&&num3>10){
-            System.out.println("Todos los numeros son correctos");
+    public void quimica(){
+        if(num1<10||num2<10||num3<10){
+            System.out.println("Alguno de los números es menor a diez");
         }
         else{
-            System.out.println("Alguno de los números es menor a diez");
-
+            System.out.println("Todos los numeros son mayores que diez");
         }
     }
     public static void main(String[] args) {
         Ejercicio20 ejercicio20 = new Ejercicio20();
         ejercicio20.fisica();
-        ejercicio20.bucle();
-
+        ejercicio20.quimica();
     }
-
 }
