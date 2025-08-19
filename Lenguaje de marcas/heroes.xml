@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF_8" ?>
+<heroes>
+	<heroe>
+		<nombre> Arcane mage 
+			<faction> Magic council </faction>
+			<arma> 
+				<nombre>Arcane wand </nombre>
+				<tipo>Magical</tipo>
+			</arma>
+			<base_stats> +10% Projectile Speed </base_stats>
+			<star_pasive> +x,x% 2X Proj. chance (M)	</star_pasive>
+				<level_progression>
+					<level_10> +1 Penetration to Arcane Wand Projectiles </level_10>
+					<level_20>+1 Magical Projectile(s) </level_20>
+					<level_30>-5% Cooldown </level_30>
+					<level_40>MIND CONTROL: Enemies hit by Arcane Wand are slowed by 30% for 2s
+						<set_upgrade_1> + 30% </set_upgrade_1>
+						<set_upgrade_2> + 36% </set_upgrade_2>
+						<set_upgrade_3> + 42% </set_upgrade_3>
+						<set_upgrade_4> + 48% </set_upgrade_4>
+						<set_upgrade_5> + 54% </set_upgrade_5>
+					</level_40>	
+					<level_50 type="All_Heroes">All Heroes: +2,5% Projectile Speed </level_50>
+					<level_60>+1 Penetration to Arcane Wand Projectiles </level_60>
+					<level_70 type="All_Heroes"> + 12'5% Damage</level_70>
+					<level_80>BARRAGE: Arcane wand has a 15% chance to double the amount of its prrojectiles									
+						<set_upgrade_1> + 15% </set_upgrade_1>
+						<set_upgrade_2> + 18% </set_upgrade_2>
+						<set_upgrade_3> + 21% </set_upgrade_3>
+						<set_upgrade_4> + 24% </set_upgrade_4>
+						<set_upgrade_5> + 27% </set_upgrade_5>
+					</level_80>
+					<level_90 type="All Heroes that share faction:"> +1 Magical Projectile </level_90>
+					<level_100>TRINITY: Defeating enemies fills a meter. When full, spawn a Trinity around you dealing 200% weapon damage per hit.									
+						<set_upgrade_1> + 200%</set_upgrade_1>
+						<set_upgrade_2> + 240%</set_upgrade_2>
+						<set_upgrade_3> + 280%</set_upgrade_3>
+						<set_upgrade_4> + 320%</set_upgrade_4>
+						<set_upgrade_5> + 360%</set_upgrade_5>
+					</levl_100>
+					<level_120 type="All_Heroes"> +1 Magical Projectile(s) </levl_120>
+					<level_140 type="Strong_Stat_Bonus"> +4 Arcane Wand Projectile Penetration </level_140>
+					<level_160 type="All_Heroes"> + 100% Damage </level_160>
+				</level_progression>
+		</nombre>
+	</heroe>
+	
+	<heroe>
+		<nombre> Knight			
+				<faction>Warriors Guild	</faction>
+				<arma> 
+					<nombre>Espada</nombre>
+					<tipo>Physical</tipo>
+				</arma>
+				<base_stats>+20 Armor y -20% Movement Speed </base_stats>
+				<star_pasive> +x Armor </star_pasive>
+					<level_progression>
+						<level_10> +50%HP/min Regeneration </level_10>
+						<level_20> +10% Area of Effect </level_20>
+						<level_30> +50 Health</level_30>
+						<level_40> WHIRLWIND: Release a spin attack on every 5th sword attack dealing 200% weapon damage									
+							<set_upgrade_1>200%</set_upgrade_1>
+							<set_upgrade_2>250%</set_upgrade_2>
+							<set_upgrade_3>300%</set_upgrade_3>
+							<set_upgrade_4>350%</set_upgrade_4>
+							<set_upgrade_5>400%</set_upgrade_5>
+						</level_40>
+						<level_50 type="All_Heroes"> +25 Health </level_50>									
+						<level_60> +15% Area of Effect</level_60>
+						<level_70 type="All_Heroes"> +2,5% Area of Effect</level_70>
+						<level_80> GIANTSLAYER: The sword deals ×2,00 extra damage to elite enemies and bosses									
+							<set_upgrade_1>×2,00</set_upgrade_1>
+							<set_upgrade_2>×2,40</set_upgrade_2>
+							<set_upgrade_3>×2,80</set_upgrade_3>
+							<set_upgrade_4>×3,20</set_upgrade_4>
+							<set_upgrade_5>×3,60</set_upgrade_5>
+						</level_80>
+						<level_90 type="All Heroes that share faction"> +1 Magical Projectile</level_90>
+						<level_100> DEFLECTIVE BARRIER: Sword hits fill a meter. When full, Armor increases drastically and incoming damage is reflected with a 800% multiplier.									
+							<set_upgrape_1>800%</set_upgrade_1>
+							<set_upgrade_2>1200%</set_upgrade_2>
+							<set_upgrade_3>1600%</set_upgrade_3>
+							<set_upgrade_4>2000%</set_upgrade_4>
+							<set_upgrade_5>2400%</set_upgrade_5>
+						</level_100>
+						<level_120 type="All_Heroes">+ 10% Armor </level_120>
+						<level_140 type="Strong_Stat_Bonus"> +30 Armor (Additive)</level_140>
+						<level_160 type="All_Heroes">+ 100% Damage </level_160>
+					</level_progression>
+		</nombre>
+	</heroe>
+	<heroe>
+		<nombre>Dark Ranger			
+			<faction>Shadow Syndicate</faction>
+			<arma>Hunting Bow		
+				<tipo> Physical</tipo>
+			</arma>
+			<base_stats>+10% Movement Speed	+10% Projectile Speed +5% Critical Hit Chance</base_stats>
+			<star_pasive>+x% DMG To Slowed</star_pasive>
+				<level_progression>
+					<level_10>-5% Cooldown</level_10>
+					<level_20>+1 Physical Projectile </level_20>
+					<level_30>+5% Critical Hit Chance</level_30>
+					<level_40>EXPLOSIVE ARROWS: The hunting bow has a 25% chance of making enemies explode on death													
+						<set_upgrade_1>25%</set_upgrade_1>
+						<set_upgrade_2>30%</set_upgrade_2>
+						<set_upgrade_3>35%</set_upgrade_3>
+						<set_upgrade_4>40%</set_upgrade_4>
+						<set_upgrade_5>45%</set_upgrade_5>
+					</level_40>
+					<level_50 type="All_Heroes">+2,5% Critical Hit Chance</level_50>	
+					<level_60>+35% Damage</level_60>
+					<level_70 type="All_Heroes"> +12'5% Damage</level_70>
+					<level_80>WILD THORNS: Enemies that are hit by the bow get entangled in thorns, slowing them by 50% for 2s
+						<set_upgrade_1>50%</set_upgrade_1>
+						<set_upgrade_2>55%</set_upgrade_2>
+						<set_upgrade_3>60%</set_upgrade_3>
+						<set_upgrade_4>65%</set_upgrade_4>
+						<set_upgrade_5>70%</set_upgrade_5>
+					</level_80>	
+					<level_90 type="All Heroes that share faction":> +3% Critical Hit Chance</level_90>
+					<level_100>ARROW STORM: Bow hits fill a meter. When full, arrows fall from the sky dealing 300% weapon damage.									
+						<set_upgrade_1>300%<set_upgrade_1>
+						<set_upgrade_2>350%</set_upgrade_2>
+						<set_upgrade_3>400%</set_upgrade_3>
+						<set_upgrade_4>450%</set_upgrade_4>
+						<set_upgrade_5>500%</set_upgrade_5>
+					</level_100>
+					<level_120 type="All_Heroes"> +7,5% Projectile Speed </level_120>
+					<level_140 type="Strong Stat Bonus:"> +15% Critical Hit Chance </level_140>
+					<level_160 type="All_Heroes"> 100% Damage </level_160>
+				</level_progression>
+		</nombre>
+	</heroe>
+	<heroe>
+		<nombre>Fire Wizard			
+				<faction>Magic Council</faction>
+				<arma>
+					<nombre>Fire Staff</nombre>
+					<tipo>Magical</tipo>
+				</arma>
+				<base_stats>+10% Area Of Effect</base_stats>
+				<star_pasive>+x% DMG to Burning</star_pasive>
+					<level_progression>
+						<level_10>+25% Damage</level_10>
+						<level_20>+1 Magical Projectile</level_20>
+						<level_30>+5% Critical Hit Chance</level_30>
+						<level_40>IGNITE: Enemies that are hit by the fire staff start burning for 2,5s for 50% weapon damage per second									
+							<set_upgrade_1>50%</set_upgrade_1>
+							<set_upgrade_2>60%</set_upgrade_2>
+							<set_upgrade_3>70%</set_upgrade_3>
+							<set_upgrade_4>80%</set_upgrade_4>
+							<set_upgrade_5>90%</set_upgrade_5>
+						</level_40>
+						<level_50 type="All_Heroes"> +2,5% Area of Effect</level_50>
+						<level_60>+15% Area of Effect</level_60>
+						<level_70 type="All_Heroes">+12'5% Damage</level_70>
+						<level_80>
+							<set_upgrade_1>40%</set_upgrade_1>
+							<set_upgrade_2>45%</set_upgrade_2>
+							<set_upgrade_3>50%</set_upgrade_3>
+							<set_upgrade_4>55%</set_upgrade_4>
+							<set_upgrade_5>60%</set_upgrade_5>
+						</level_80>
+						<level_90 type="All Heroes that share faction:"> x1,1 damage to frozen enemies</level_90>
+						<level_100>BLIZZARD: Freezing enemies fill a meter. When full, ice prrojectiles freeze and damage enemies on screen for 100% weapon damage
+							<set_upgrade_1>100%</set_upgrade_1>
+							<set_upgrade_2>140%</set_upgrade_2>
+							<set_upgrade_3>180%</set_upgrade_3>
+							<set_upgrade_4>220%</set_upgrade_4>
+							<set_upgrade_5>260%</set_upgrade_5>
+						</level_100>
+						<level_120 type="All_Heroes">+4% XP Bonus</level_120>
+						<level_140 type="Strong_Stat_Bonus">x1,2 Damage to Frozen Enemies (Multiplicative)</level_140>
+						<level_160 type="All_Heroes">+100% Damage</level_160>
+					</level_progression>
+		</nombre>
+	</heroe>
+	<heroe>
+		<nombre> Frost Wizard
+			<faction>Magic Council</faction>
+			<arma>
+				<nombre>Ice Gauntlets</nombre>
+				<tipo>Magical</tipo>
+			</arma>
+			<base_stats>+10% Effect Duration +5% Gauntlets Freeze Chance</base_stats>
+			<star_pasive>+x% DMG to Frozen</star_pasive>
+				<level_progression>
+					<level_10>+25% Damage</level_10>
+					<level_20>+1 Magical Projectile</level_20>
+					<level_30>x1,2 damage to frozen enemies</level_30>
+					<level_40>COLD HANDS: +10% Ice Gauntlets freeze chance	
+						<set_upgrade_1>10%</set_upgrade_1>
+						<set_upgrade_2>12%</set_upgrade_2>
+						<set_upgrade_3>14%</set_upgrade_3>
+						<set_upgrade_4>16%</set_upgrade_4>
+						<set_upgrade_5>18%</set_upgrade_5>
+					</level_40>
+					<level_50 type="All_Heroes">+2,5% Effect Duration</level_50>
+					<level_60>+15% Effect Duration</level_60>
+					<level_70 type="All_Heroes">+ 12'5% Damage </level_70>
+					<level_80>
+						<set_upgrade_1>40%</set_upgrade_1>
+						<set_upgrade_2>45%</set_upgrade_2>
+						<set_upgrade_3>50%</set_upgrade_3>
+						<set_upgrade_4>55%</set_upgrade_4>
+						<set_upgrade_5>60%</set_upgrade_5>
+					</level_80>
+					<level_90 type="All Heroes that share faction">x1,1 damage to frozen enemies</level_90>
+					<level_100>
+						<set_upgrade_1>100%</set_upgrade_1>
+						<set_upgrade_2>140%</set_upgrade_2>
+						<set_upgrade_3>180%</set_upgrade_3>
+						<set_upgrade_4>220%</set_upgrade_4>
+						<set_upgrade_5>260%</set_upgrade_5>
+					</level_100>
+					<level_120 type="All_Heroes">+4% XP Bonus</level_120>
+					<level_140 type="Strong_Stat_Bonus">x1,2 Damage to Frozen Enemies</level_140>
+					<level_160 type="All_Heroes">+100% Damage</level_160>
+				</level_progression>
+		</nombre>
+	</heroe>
+	
+</heroes>
