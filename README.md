@@ -13,4 +13,4 @@ Este es un repositorio en el que va a servir para guardar y practicar todos los 
  
  ## _ Lenguaje de marcas
  En este directorio he subido solo un ejercicio de xsd y su xml y seguire subiendo mas pero de momento  lo hemoos dejado un poco apartado
-y sobre todo ya he podido aprender cosas de xsd que no he aprendido en todo el curso vamooos
+y sobre todo ya he podido aprender cosas de xsd que no he aprendido en todo el curso vamooos.
